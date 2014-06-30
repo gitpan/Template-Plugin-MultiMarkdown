@@ -1,7 +1,7 @@
 {
     "name" : "Template-Plugin-MultiMarkdown",
     "abstract" : "TT plugin for Text::MultiMarkdown",
-    "version" : "0.07",
+    "version" : "0.08",
     "author" : [
         "Barbie (BARBIE) <barbie@cpan.org>"
     ],
@@ -37,7 +37,7 @@
                 "perl": "5.006",
                 "parent" : "0",
                 "Template" : "2.16",
-                "Template::Plugin::Filter" : "2.16",
+                "Template::Plugin::Filter" : "1.38",
                 "Text::MultiMarkdown" : "v1.0.1"
             }
         }
@@ -46,7 +46,7 @@
     "provides": {
         "Template::Plugin::MultiMarkdown": {
             "file": "lib/Template/Plugin/MultiMarkdown.pm",
-            "version": "0.07"
+            "version": "0.08"
         }
     },
 
