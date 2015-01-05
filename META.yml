@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                     Template-Plugin-MultiMarkdown
-version:                  0.10
+version:                  0.11
 abstract:                 TT plugin for Text::MultiMarkdown
 author:
   - Barbie <barbie@cpan.org>
@@ -34,7 +34,7 @@ build_requires:
 provides:
   Template::Plugin::MultiMarkdown:
     file:     lib/Template/Plugin/MultiMarkdown.pm
-    version:  0.10
+    version:  0.11
 no_index:
   directory:
     - t
@@ -48,4 +48,4 @@ resources:
 meta-spec:
    version:   1.4
    url:       http://module-build.sourceforge.net/META-spec-v1.4.html
-generated_by: Hand 1.0
+generated_by: The Hand of Barbie 1.0
